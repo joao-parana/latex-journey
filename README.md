@@ -98,6 +98,10 @@ chmod a+rx texlive-on-the-fly.sh
 
 ## Usando a Linguagem TeX
 
+Veja os [videos do professor Aquino](https://youtu.be/F-yGTt9Bty4?list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE) no YouTube
+
+Abaixo um resumo.
+
 #### Listas
 
 ![latex-listas](docs/latex-listas.png)
