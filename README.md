@@ -81,9 +81,9 @@ Instale o pacote `texliveonfly`
 sudo tlmgr install texliveonfly
 find /usr/local/texlive -name "texliveonfly.*"
 ls /usr/local/texlive/2016basic/texmf-dist/scripts/texliveonfly/texliveonfly.py
-echo /usr/local/texlive/2016basic/texmf-dist/scripts/texliveonfly/texliveonfly.py projeto.tex > textlive-on-the-fly.sh 
-chmod a+rx textlive-on-the-fly.sh 
-./textlive-on-the-fly.sh
+echo /usr/local/texlive/2016basic/texmf-dist/scripts/texliveonfly/texliveonfly.py \$1 > texlive-on-the-fly.sh 
+chmod a+rx texlive-on-the-fly.sh 
+./texlive-on-the-fly.sh artigo-1.tex
 ```
 
 
