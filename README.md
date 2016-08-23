@@ -68,15 +68,25 @@ courier:
 sudo tlmgr install courier
 ```
 
-Instale o pacote `texliveonfly`
-
 Repita para `phvr7t.tfm`
-
 
 ```bash
 tlmgr search --file phvr7t.tfm --global
 sudo tlmgr install helvetic
 ```
+
+Instale o pacote `texliveonfly`
+
+```bash
+sudo tlmgr install texliveonfly
+find /usr/local/texlive -name "texliveonfly.*"
+ls /usr/local/texlive/2016basic/texmf-dist/scripts/texliveonfly/texliveonfly.py
+echo /usr/local/texlive/2016basic/texmf-dist/scripts/texliveonfly/texliveonfly.py projeto.tex > textlive-on-the-fly.sh 
+chmod a+rx textlive-on-the-fly.sh 
+./textlive-on-the-fly.sh
+```
+
+
 
 
 
