@@ -108,3 +108,6 @@ chmod a+rx texlive-on-the-fly.sh
 
 ![operadores-e-fracoes](docs/latex-operadores-e-fracoes.png)
 
+#### Potências e Raizes
+
+![potencias e raizes](docs/latex-potencia.png)
