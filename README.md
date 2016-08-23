@@ -94,3 +94,10 @@ chmod a+rx texlive-on-the-fly.sh
 
 >TBD
 
+
+
+## Usando a Linguagem TeX
+
+#### Listas
+
+![latex-listas](docs/latex-listas.png)
