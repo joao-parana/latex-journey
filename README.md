@@ -26,6 +26,28 @@ Faça o Download do `BasicTeX.pkg` em [https://tug.org/mactex/morepackages.html]
 open /Applications/TeXstudio.app
 ```
 
+#### Resolução de Problemas
+
+**Problema:**
+
+```tex
+\RequirePackage{titlesec}
+\titlelabel{\thetitle.\hspace{1ex}}
+```
+gera o erro: 
+
+```
+File `titlesec.sty' not found. \titlelabel
+```
+
+** Solução:**
+
+Instale o [TeX Live Utility Versão 1.2.6](https://github.com/amaxwell/tlutility/releases)
+
+Depois instale o pacote `titlesec`
+
+![tex-live-utility](docs/tex-live-utility.png)
+
 ### Windows
 
 >TBD
