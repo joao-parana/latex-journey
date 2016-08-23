@@ -120,3 +120,5 @@ chmod a+rx texlive-on-the-fly.sh
 
 ![conjuntos](docs/latex-conjuntos.png)
 
+![conjuntos 1](docs/latex-conjuntos-1.png)
+
