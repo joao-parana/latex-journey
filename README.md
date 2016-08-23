@@ -111,3 +111,9 @@ chmod a+rx texlive-on-the-fly.sh
 #### Potências e Raizes
 
 ![potencias e raizes](docs/latex-potencia.png)
+
+#### Indices para enumerados
+
+![indices](docs/latex-indices.png)
+
+
