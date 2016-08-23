@@ -104,3 +104,7 @@ chmod a+rx texlive-on-the-fly.sh
 
 ![lista-simples](docs/latex-lista-simples.png)
 
+#### Operadores e frações
+
+![operadores-e-fracoes](docs/latex-operadores-e-fracoes.png)
+
