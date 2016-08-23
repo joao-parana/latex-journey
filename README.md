@@ -48,6 +48,38 @@ Depois instale o pacote `titlesec`
 
 ![tex-live-utility](docs/tex-live-utility.png)
 
+**Problema:**
+
+Font OT1/pcr/m/n/10=pcrr7t at 10.0pt not loadable: Metric (TFM) file not found. \maketitle
+
+**Solução:**
+
+```bash
+tlmgr search --file pcrr7t.tfm --global
+```
+
+```
+tlmgr: package repository http://linorg.usp.br/CTAN/systems/texlive/tlnet (verified)
+courier:
+  texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
+```
+
+```bash
+sudo tlmgr install courier
+```
+
+Instale o pacote `texliveonfly`
+
+Repita para `phvr7t.tfm`
+
+
+```bash
+tlmgr search --file phvr7t.tfm --global
+sudo tlmgr install helvetic
+```
+
+
+
 ### Windows
 
 >TBD
