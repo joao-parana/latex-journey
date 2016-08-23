@@ -101,3 +101,6 @@ chmod a+rx texlive-on-the-fly.sh
 #### Listas
 
 ![latex-listas](docs/latex-listas.png)
+
+![lista-simples](docs/latex-lista-simples.png)
+
