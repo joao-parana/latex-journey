@@ -10,9 +10,13 @@ Video aulas sobre LaTeX: [https://www.youtube.com/watch?v=4pTf8vB9Ezg](https://w
 
 Editor LaTeX on line: [https://pt.sharelatex.com/](https://pt.sharelatex.com/)
 
+LaTeX IDE [http://texstudio.sourceforge.net](http://texstudio.sourceforge.net)
+
 ## Instalando LaTeX
 
 ### macOS
+
+Instalando o IDE
 
 ```bash
 brew doctor
