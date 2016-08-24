@@ -14,7 +14,7 @@ LaTeX IDE [http://texstudio.sourceforge.net](http://texstudio.sourceforge.net)
 
 Apresentação de LaTeX
 
-![latex-curso](docs/latex-curso.pdf)
+[Click para carregar a Apresentação de LaTeX em PDF](docs/latex-curso.pdf)
 
 ## Instalando LaTeX
 
