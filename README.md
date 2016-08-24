@@ -12,6 +12,10 @@ Editor LaTeX on line: [https://pt.sharelatex.com/](https://pt.sharelatex.com/)
 
 LaTeX IDE [http://texstudio.sourceforge.net](http://texstudio.sourceforge.net)
 
+Apresentação de LaTeX
+
+![latex-curso](docs/latex-curso.pdf)
+
 ## Instalando LaTeX
 
 ### macOS
