@@ -96,8 +96,13 @@ chmod a+rx texlive-on-the-fly.sh
 
 ### Windows
 
->TBD
+#### Instale o TexLive
 
+![texlive-install](docs/texlive-install.jpg)
+
+Desmarque a opção TeXworks como mostrado.
+
+#### Instale o TeXstudio
 
 
 ## Usando a Linguagem TeX
