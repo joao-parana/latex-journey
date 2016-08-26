@@ -2,6 +2,10 @@
 % Para carregar o pacote de Idioma use:   \usepackage[portuguese]{babel}
 \usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage[utf8]{inputenc}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+
 \title{Meu primeiro artigo em \LaTeX}
 \date{\today}
 \begin{document}
@@ -17,5 +21,19 @@ Por exemplo: Este texto possui ç ã á à é ñ ê Ã É Á ò õ e 2º
 % comentários não são compilados e portanto não aparecem a saida 
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+\textbf{Agora alguns gráficos de funções diferentes}
+
+\begin{tikzpicture}
+  \begin{axis}
+    \addplot {sin(deg(2*x))*cos(deg(3*x))};
+  \end{axis}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+  \begin{axis}
+    \addplot {x^2};
+  \end{axis}
+\end{tikzpicture}
 
 \end{document}
