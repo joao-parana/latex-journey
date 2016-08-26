@@ -6,6 +6,9 @@
 \usepackage{tikz}
 \usepackage{pgfplots}
 
+\usepackage{graphicx}
+\usepackage{float}
+
 \title{Meu primeiro artigo em \LaTeX}
 \date{\today}
 \begin{document}
@@ -35,5 +38,14 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
     \addplot {x^2};
   \end{axis}
 \end{tikzpicture}
+
+\textbf{Agora uma imagem com titulo, centralizada e em escala de 20\%}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.2]{docs/texlive-install.jpg}
+  \caption{Apenas uma imagem de exemplo};
+  \label{fig:um_exemplo}
+\end{figure}
 
 \end{document}
