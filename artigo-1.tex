@@ -9,6 +9,11 @@
 \usepackage{graphicx}
 \usepackage{float}
 
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+
+\everymath{\displaystyle}
 \title{Meu primeiro artigo em \LaTeX}
 \date{\today}
 \begin{document}
@@ -44,8 +49,40 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.2]{docs/texlive-install.jpg}
-  \caption{Apenas uma imagem de exemplo};
+  \caption{Apenas uma imagem de exemplo}
   \label{fig:um_exemplo}
 \end{figure}
+	\centering
+	\begin{tabular}{|r|c|}
+		\hline
+		Cabeçalho 1 & Cabeçalho 2 \\ \hline
+		$c11$ & $c12$ \\ \hline
+		$c11$ & $c12$ \\ \hline
+		$c11$ & $c12$ \\ \hline	
+	\end{tabular}
+
+
+
+	
+\centering
+\textbf{Agora uma tabela formatada}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{>{\centering}m{2cm}cccc}
+		\toprule[2pt]
+		&  & \multicolumn{3}{c}{Ângulos} \\ 
+		\cmidrule[.1pt]{3-5}
+		&  & $\frac{\pi}{6}$ & $\frac{\pi}{4}$ & $\frac{\pi}{3}$ \\ 
+		\cmidrule[.1pt]{2-5} 
+		\multirow{3}{*}{\rotatebox[origin=c]{90}{\parbox{2.2cm}{\centering Razões\\ Trigonométricas}}} & $\sin$ & $\frac{1}{2}$ & $\frac{\sqrt{2}}{2}$ & $\frac{\sqrt{3}}{2}$ \\ 
+		\cmidrule[.1pt]{2-5}
+		& $\cos$ & $\frac{\sqrt{3}}{2}$ & $\frac{\sqrt{2}}{2}$ & $\frac{1}{2}$ \\ 
+		\cmidrule[.1pt]{2-5}
+		& $\tan$ & $\frac{\sqrt{3}}{3}$ & 1 & $\sqrt{3}$ \\ 
+		\bottomrule[2pt]
+	\end{tabular}
+	\caption{Valores das razões trigonométricas}
+\end{table}
 
 \end{document}
