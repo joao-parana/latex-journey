@@ -16,6 +16,9 @@ Apresentação de LaTeX
 
 [Click para carregar a Apresentação de LaTeX em PDF](docs/latex-curso.pdf)
 
+Site para criação de Tabela Online [http://www.tablesgenerator.com](http://www.tablesgenerator.com)
+
+
 ## Instalando LaTeX
 
 ### macOS
